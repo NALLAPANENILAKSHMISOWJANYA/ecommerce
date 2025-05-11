@@ -33,7 +33,7 @@ const Admin = () => {
         >
           Admin Home
         </h3>
-        <h1 style={{ textAlign: "center", color: "blue" }}>ADMIN PAGE</h1>
+        <h1 style={{ textAlign: "center", color: "blue" }}>ADMIN</h1>
         <h3
           onClick={() => {
             localStorage.removeItem("adminid");
