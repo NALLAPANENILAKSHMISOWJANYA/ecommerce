@@ -27,7 +27,7 @@ const Payment = () => {
         setPaymentData(response.data);
       })
       .catch((error) => {
-        console.error("Error fetching data from the API: ", error);
+        console.error("Error in fetching data from the API: ", error);
       });
   }, [userid, orderid]);
 
