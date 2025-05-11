@@ -79,7 +79,7 @@ const Login = () => {
           <h2 style={{ textAlign: "center" }}>LogIn </h2>
           <form onSubmit={submitHandler}>
             <div className="form-group">
-              <label htmlFor="username">Username:</label>
+              <label htmlFor="username">Username: </label>
               <input
                 id="username"
                 type="text"
