@@ -28,7 +28,7 @@ public class OrdersDTO {
 		return orderDate;
 	}
 	public void setOrderDate(String orderDate) {
-		this.orderDate = orderDate;
+		this.orderDate=orderDate;
 	}
 	public Double getOrderAmount() {
 		return orderAmount;
